@@ -1,10 +1,8 @@
-var h1Contact =document.getElementsByClassName("contact__title");
-
 let contacto = document.getElementById("contacto__formulario");
-contacto.addEventListener("submit", validarmensaje);
+contacto.addEventListener("submit", validarMensaje);
 
-function validarmensaje(e){
+function validarMensaje(e){
     e.preventDeFault();
     console.log("Formulario Enviado");
     alert("Tu mensaje ha sido enviado con exito");
-}
+}   
