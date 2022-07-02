@@ -10,4 +10,4 @@ function productos (a, b, c){
 }
 
 let resultado = productos(numero1, numero2, numero3);
-console.log("El total de productos es", resultado);
+alert(`El total de productos es resultado ${resultado}`);
